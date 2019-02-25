@@ -20,11 +20,11 @@ RUN \
         avahi-compat-libdns_sd=0.7-r1 \
         dbus=1.10.24-r1 \
         git=2.18.1-r0 \
-        nodejs=10.15.1-r0 \
-        npm=10.15.1-r0 \
+        nodejs=8.14.0-r0 \
+        npm=8.14.0-r0 \
     \
     && npm set unsafe-perm true \
-    \8.14.0
+    \
     && npm -g install \
         node-gyp@3.8.0 \
         homebridge@0.4.46 \
