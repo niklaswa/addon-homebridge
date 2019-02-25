@@ -24,7 +24,7 @@ RUN \
         npm=10.15.1-r0 \
     \
     && npm set unsafe-perm true \
-    \
+    \8.14.0
     && npm -g install \
         node-gyp@3.8.0 \
         homebridge@0.4.46 \
